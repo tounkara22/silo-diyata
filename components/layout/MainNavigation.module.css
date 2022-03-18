@@ -4,14 +4,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #660155;
+  background-color: #131988;
   padding: 0 10%;
 }
 
-.logo {
-  font-size: 2rem;
-  color: white;
-  font-weight: bold;
+.logo:hover,
+.logo:active {
+  cursor: pointer;
 }
 
 .header ul {
@@ -28,7 +27,7 @@
 
 .header a {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #f8c5d9;
 }
 
